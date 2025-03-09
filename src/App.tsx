@@ -9,11 +9,11 @@ function App() {
     <div>
       {alertVisible && (
         <MyAlert onClose={() => setAlertVisibility(false)}>
-          This is an <b>alert!</b>
+          Oh my gosh, this is so important!
         </MyAlert>
       )}
       <Button color="success" onClick={() => setAlertVisibility(true)}>
-        Click me!
+        Hit the Button
       </Button>
     </div>
   );
